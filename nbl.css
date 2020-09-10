@@ -1,0 +1,329 @@
+body{
+  height: 1700px;
+  width: 1320px;
+}
+.top{
+  margin-top: -10px;
+  position: relative;
+  height: 50px;
+  width: 1310px;
+  background-color:#F7F7F7;
+  margin-left: -10px;
+}
+.topone{
+  position: relative;
+  height: 50px;
+  width: 680px;
+  background-color: #06944A;
+  border-top-left-radius: 50px;
+  margin-left: 310px;
+  margin-top: -33px;
+}
+.top1{
+  margin-left: 30px;
+  position: absolute;
+  margin-top: 15px;
+}
+.top2{
+  position: absolute;
+  margin-left: 170px;
+  margin-top: -17px;
+}
+.top3{
+  margin-left: 150px;
+  margin-top: -18px;
+  width: 280px;
+}
+.menu{
+  position: absolute;
+  margin-top: -5px;
+}
+.menu ul li{
+  float: left;
+  list-style: none;
+  padding: 5px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color:white;
+  font-family: sans-serif;
+}
+.main{
+  position: relative;
+  height: 80px;
+  width: 1320px;
+  background-color: white;
+  margin-left: -750px;
+}
+.logo{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.menu2{
+  position: absolute;
+  height: 100px;
+  width: 1000px;
+  margin-left: 270px;
+  margin-top: -40px;
+}
+.menu2 ul li{
+  float: left;
+  padding: 3px;
+}
+.menu2 ul li a{
+  color: #06944A;
+  transition: .3s;
+}
+.menu2 ul li a:hover{
+  color: white;
+  background: black;
+  padding: 5px;
+  border-radius: 3px;
+}
+.slider{
+  width: 1330px;
+  overflow: hidden;
+  position: relative;
+  margin-left: -390px;
+  margin-top: 30px;
+}
+.head{
+height: 400px;
+width: 4000px;
+background-color: white;
+position: absolute;
+margin-top: 0px;
+margin-left: 0px;
+border-radius: 20px;
+animation-name: tareq;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+.head img{
+  float: left;
+}
+@keyframes tareq {
+10%{
+  left:0px;
+}
+40%{
+    left:-1340px;
+}
+60%{
+    left:-2670px;
+}
+80%{
+    left:0px;
+}
+100%{
+    left:-0px;
+}
+
+}
+.head1{
+height: 280px;
+width: 1200px;
+background-color: white;
+position: relative;
+margin-top: 450px;
+margin-left: 100px;
+}
+.head1 h1{
+  color: black;
+  font-family: sans-serif;
+}
+.head1 h2{
+  color: #06944A;
+}
+.head1 h3{
+  color: #06944A;
+  margin-left: 500px;
+  font-size: 15px;
+  margin-top: -10px;
+  position: absolute;
+  padding: 5px 20px;
+  transition: .7s;
+}
+.head1 h3:hover{
+  background: #06944A;
+  color: white;
+}
+.head1 p{
+  color: gray;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: arial;
+}
+.head2{
+height: 1300px;
+width: 1320px;
+position: relative;
+margin-top: 0px;
+background-color: white;
+margin-left: 20px;
+}
+.head2 h1{
+  color: black;
+  font-family: arial;
+  margin-left: 80px;
+}
+.head2 h2{
+  color: #06944A;
+  margin-left: 80px;
+}
+.box{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  margin-left: -70px;
+  border-radius: 50%;
+  background-image: url(https://www.nblbd.com/assests/product/deposit/csr_financing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.current{
+  position: relative;
+  margin-top: 400px;
+  margin-left: -0px;
+  height: 60px;
+  width: 400px;
+  background-color:white;
+  border-radius: 15px 0 15px 0;
+  transition: .5s;
+}
+.current:hover{
+  background-color: #06944A;
+}
+.current h2{
+  position: absolute;
+  margin-left: 75px;
+  margin-top: -0px;
+  letter-spacing: normal;
+  color: orange;
+  font-size: 25px;
+}
+.current h5{
+  position: absolute;
+  color: blue;
+  margin-left: 160px;
+  margin-top: 40px;
+  font-size: 15px;
+  letter-spacing: normal;
+}
+.box2{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbAKlZs9Q8lqmWY1AH9B0X1ky1qfYKVhXv5g&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 275px;
+  margin-top: -440px;
+  border-radius: 50%;
+}
+.current2{
+  position: relative;
+  margin-top: 400px;
+  margin-left: -0px;
+  height: 60px;
+  width: 400px;
+  background-color:white;
+  letter-spacing: normal;
+  border-radius: 15px 0 15px 0;
+  transition: .5s;
+}
+.current2:hover{
+  background-color: #06944A;
+}
+.current2 h2{
+  font-size: 22px;
+  margin-left: 35px;
+  color: orange;
+}
+.current2 h5{
+  position: absolute;
+  color: gray;
+  margin-left: 160px;
+  margin-top: 40px;
+  font-size: 15px;
+  color: blue;
+}
+.box3{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  background-image: url(tareq/nbl5.jpg);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 270px;
+  margin-top: -440px;
+}
+.current3{
+  position: relative;
+  margin-top: 400px;
+  margin-left: -0px;
+  height: 60px;
+  width: 400px;
+  background-color:white;
+  letter-spacing: normal;
+  border-radius: 15px 0 15px 0;
+  transition: .5s;
+}
+.current3:hover{
+  background-color: #06944A;
+}
+.current3 h2{
+  color: orange;
+}
+.current3 h5{
+  color: blue;
+}
+.card{
+  height: 500px;
+  width: 600px;
+  background-image: url(https://www.nblbd.com/images/nbl-card-banner.jpg);
+  margin-left: -700px;
+  margin-top: 50px;
+  border-radius: 20%;
+}
+.bottom{
+  position: absolute;
+  height: 170px;
+  width: 1330px;
+  background-color: #06944A;
+  margin-left: -330px;
+  margin-top: 550px;
+}
+.bottom p{
+  color: white;
+  height: 300px;
+  width:500px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 13px;
+  position: absolute;
+  font-weight: lighter;
+}
+.logo2{
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 600px;
+
+}
+.bottom h5{
+  height: 20px;
+  width: 200px;
+  color: white;
+  margin-left: 400px;
+  margin-top: -80px;
+  letter-spacing: normal;
+}
+.bottom h4{
+  width: 400px;
+  color: yellow;
+  margin-left: 330px;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}
